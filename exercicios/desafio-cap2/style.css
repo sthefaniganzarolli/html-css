@@ -1,0 +1,116 @@
+@font-face {
+    font-family:android;
+    src: url('idroid.otf') format('opentype');
+}
+
+body  {
+    margin: 0;
+    padding: 0;
+    background-color:#88e4ac ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    max-width: 910px;
+    margin: 0 auto;
+    padding: 23px;
+    background-color: #1a7141;
+    box-shadow: 15px rgba(3, 3, 1, 0.555);
+    
+    
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+ h1#principal {
+    font-family: android ;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+
+}
+
+h2#subtitulo{
+    font-family: Arial, Helvetica, sans-serif ;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 2;
+    
+}
+
+nav > a {
+         text-decoration: double;
+            color: white;
+            font-weight: normal;
+            
+
+}
+
+nav > a:hover {
+    text-decoration:dashed 2px, 1px, 1px, 1px;
+    color:#88e4ac ;
+}
+
+h2#historia {
+    font-family: android;
+    font-size: 25px;
+    color: #023f1d;
+    margin-top: auto;
+
+}
+
+h2#versao {
+    font-family: android;
+    color:#023f1d;
+    background-color: #88e4ac ;
+    max-width: 900px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+h2#surge {
+    font-family: android;
+    color:#023f1d;
+    background-color: #88e4ac ;
+    max-width: 900px;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+iframe#video {
+    background-color: #023f1d;
+    max-width:700px;
+    margin: 232px;
+    padding: 30px;
+    margin-top:0px;
+    justify-content: center;
+}
+
+h3 {
+    background-color: #88e4ac;
+
+
+}
+
+p#curioso   {
+    background-color: #88e4ac;
+}
